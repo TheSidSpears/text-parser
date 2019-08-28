@@ -1,0 +1,25 @@
+{
+  "name": "thesidspears/text-parser",
+  "license": "",
+  "type": "library",
+  "description": "",
+  "require": {
+    "phpunit/phpunit": "^8.3",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "authors": [
+    {
+      "name": "Artur",
+      "email": "thesidspears@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "./app"
+    }
+  }
+}
